@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: adc171c42b56f63045099aa606a8c6decbcb87e0905e41bd3749fba782db2ef3
+-- hash: 8028e87fa28f74767d7ad704f2676ee208e8aa7a38c3dcec81f9f55cfdab2d4b
 
 name:           haskell-programming
 version:        0.1.0.0
@@ -27,7 +27,18 @@ source-repository head
 
 library
   exposed-modules:
+      CaseExpression
+      Datatype
+      FunctionWithLet
+      FunctionWithWhere
+      Guards
+      HOF
       Lib
+      Mood
+      Pointfree
+      Typecheck
+      Typeclass
+      Types
   other-modules:
       Paths_haskell_programming
   hs-source-dirs:
